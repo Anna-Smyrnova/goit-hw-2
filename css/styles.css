@@ -41,23 +41,16 @@ font-family: "Raleway", sans-serif;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-.link-menu-studio:hover, 
-.link-menu-portfolio:hover,
-.link-menu-contacts:hover
+.link-menu-list:hover
 {
     color: #404bbf;
 }
 
-.link-menu-studio:focus,
-.link-menu-portfolio:focus,
-.link-menu-contacts:focus 
+.link-menu-list:focus
 {
     color: #404bbf;
 }
 
-.link-menu-studio:active {
-    color: #404bbf;
-}
 .contacts-block {
     font-weight: 400;
     font-size: 16px;
