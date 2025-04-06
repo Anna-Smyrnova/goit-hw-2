@@ -20,8 +20,7 @@ body {
     font-family: "Raleway", sans-serif;
 font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -30,7 +29,7 @@ font-weight: 700;
 font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.2;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;}
@@ -62,14 +61,13 @@ font-family: "Raleway", sans-serif;
 .contacts-block {
     font-weight: 400;
     font-size: 16px;
+    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
  color: #434455;
 }
-.contacts-block-mail:hover,
-.contacts-block-tel:hover,
-.contacts-block-mail:focus,
-.contacts-block-tel:focus
+.contacts-block-list:hover,
+.contacts-block-list:focus
  {
     color: #404bbf;
 }
@@ -83,13 +81,14 @@ font-family: "Raleway", sans-serif;
 .main-title {
     font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
 }
 
 .service-button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -105,7 +104,7 @@ font-family: "Raleway", sans-serif;
 }
 /*benefits*/
 
-h3 {
+.benefits-title {
 font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -121,21 +120,36 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
+
+/*team*/
+
 .our-team-section {
 background: #f4f4fd;    
 }
-h2 {
+.section-title {
 font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    text-transform: capitalize;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
 }
 
+
 .our-team-section-foto-block {
     background: #fff;
 }
+
+.team-name-title {
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+}
+
 
 .our-team-section-text {
     font-weight: 400;
@@ -157,7 +171,7 @@ font-weight: 400;
 
 /*Footer*/
 
-footer {
+.footer {
     background: #2e2f42;
 }
 
@@ -165,7 +179,7 @@ footer {
     font-family: "Raleway", sans-serif;
 font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -175,7 +189,7 @@ font-weight: 700;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #f4f4fd;
